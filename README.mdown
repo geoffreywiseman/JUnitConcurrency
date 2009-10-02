@@ -1,0 +1,7 @@
+# JUnitConcurrency
+
+A framework for dealing with concurrency in JUnit.  There are lots of things about concurrency and testing that are difficult, and much of that can't be solved by a framework, but there are pieces of low-hanging fruit, and JUnitConcurrency aims to pluck some of these.
+
+This project started when it became apparent that JUnitPerf hadn't been updated to work with JUnit 4.X, and given the age of JUnit 4.X, it didn't seem likely that that was likely to happen. JUnit itself has added timeouts, but has no facility for running a single test in multiple threads, so this extension was born to scratch that particular itch, but it may go on to scratch others.
+
+So there you go; if you need some software to scratch your low-hanging fruit ...
